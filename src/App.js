@@ -8,6 +8,9 @@ function App() {
         <p>
           <code>Carlos Guerra Blanco, Full Stack Developer</code>
         </p>
+        <p>
+          <code>Write me at cguerradev@gmail.com</code>
+        </p>
       </header>
     </div>
   );
