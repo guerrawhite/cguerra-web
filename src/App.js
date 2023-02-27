@@ -5,11 +5,15 @@ function App() {
     <div className="App">
       <header className="App-header">
       <img alt="foto del perfil de carlos" className="imgMain" src={require('./assets/img/carlos.jpeg')}/>
-      <h1>Carlos Guerra Blanco, Full Stack Developer</h1>
+      <h1>Carlos Guerra Blanco</h1>
+      <h2>Full Stack Developer</h2>
       </header>
       <section className="myJobs">
+        <span className="circleApple red"></span>
+        <span className="circleApple yellow"></span>
+        <span className="circleApple green"></span>
         <code>
-          <h2>Mis trabajos:</h2>
+          <h3>Mis trabajos:</h3>
           <ul>
             <li><a target="_blank" rel="noreferrer" href="https://ticjob.es/">ticjob.es</a></li>
             <li><a target="_blank" rel="noreferrer" href="https://thisisaluche.com/">thisisaluche.com</a></li>
