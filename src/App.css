@@ -13,12 +13,13 @@ h1, h2{
   margin: 0;
 }
 h2{
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
   font-weight: normal;
   font-size: 17pt;
 }
 h3{
   color: #ffffff;
+  font-size: 15pt;
   margin: 0;
   margin: 0 0 .8rem 0;
 }
@@ -26,12 +27,9 @@ p{
   line-height: 50px;
   color: #ffffff;
 }
-a{
+a, a:hover{
   color: #ffffff;
   text-decoration: none;
-}
-ul li a{
-  color: #00ff1c;
 }
 ul{
   line-height: 1.5rem;
@@ -42,12 +40,9 @@ ul{
 code{
   display: block;
 }
-.bold{
-  font-weight: bold;
-}
 .App{
   text-align: center;
-  padding: 10% 1rem 0 1rem;
+  padding: 4rem 1rem 0 1rem;
 }
 .circleApple{
   width: 0.6rem;
@@ -57,6 +52,9 @@ code{
   position: absolute;
   top: -15px;
   left: 3px;
+}
+.myJobs ul li a, .myJobs ul li a:hover{
+  color: #00ff1c;
 }
 .red{background: #ff4f4f;}
 .yellow{background: #ffb200;left: 16px;}
@@ -74,11 +72,37 @@ code{
   position: relative;
   border: 2px solid #ffffff;
   border-top: 20px solid #ffffff;
-  width: 14rem;
-  margin: 0 auto;
+  width: 19rem;
+  margin: 0 auto 2rem auto;
   background: #000000;
   padding: 1.5rem 2rem 2rem 2rem;
   border-radius: .3rem;
+}
+.myTechs{
+  width: 20rem;
+  margin: 0 auto;
+}
+.myTechs h3{
+  margin: 0 0 .8rem 0;
+  font-size: 14pt;
+}
+.myTechs ul li{
+  display: inline-block;
+  color: #ffffff;
+  border-radius: .2rem;
+  padding: 0 .5rem;
+  margin-right: .2rem;
+  margin-bottom: .2rem;
+  font-size: 10pt;
+}
+.color-one{
+  background-color: #BD4FE1;
+}
+.color-two{
+  background-color: #468847;
+}
+.color-three{
+  background-color: #3a87ad;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
