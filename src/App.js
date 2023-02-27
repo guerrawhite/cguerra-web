@@ -23,7 +23,7 @@ function App() {
         </code>
       </section>
       <footer>
-        <p>¡Escríbeme a <a href="mailto:cguerradev@gmail.com">cguerradev@gmail.com</a>!</p>
+        <p>¡Escríbeme a <a style="font-weight:bold;" href="mailto:cguerradev@gmail.com">cguerradev@gmail.com</a>!</p>
         <a target="_blank" rel="noreferrer" href="https://es.linkedin.com/in/carlos-guerra-blanco"><img alt="logo linkedin" className="imgLinkedin" src={require('./assets/img/linkedin.png')}/></a>
       </footer>
     </div>
