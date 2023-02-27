@@ -42,6 +42,9 @@ ul{
 code{
   display: block;
 }
+.bold{
+  font-weight: bold;
+}
 .App{
   text-align: center;
   padding: 10% 1rem 0 1rem;
